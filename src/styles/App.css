@@ -1,0 +1,81 @@
+.userList{
+    margin:0;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.listUl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.listLi{
+    display: flex;
+    margin-top: 20px;
+    padding: 5px 20px;
+    width: 200px;
+    justify-content: center;
+    border: 1px solid;
+    
+}
+
+.listLi:hover{
+    cursor: pointer;
+    transition: .6s;
+    background-color: black;
+    color: white;
+}
+
+.userListSelected {
+    background-color: red;
+}
+
+.containerChat{
+    display: inline-block;
+}
+
+.userChat{
+    max-height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    
+}
+
+.form{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.chatUl{
+    overflow: auto;
+    list-style: none;
+    height: 600px;
+    
+}
+
+.chatLi{
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20%;
+    border: 1px solid;
+    margin: 20px ;
+    display: block;
+    width: 200px;
+    word-wrap:break-word;
+}
+
+.myMsg{
+    margin-left: 300px;
+    background-color: royalblue;
+}
